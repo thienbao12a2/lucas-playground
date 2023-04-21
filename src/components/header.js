@@ -31,26 +31,17 @@ function Header() {
         <div className="col-9 mt-3">
           <Link to="/">
             <h1>
-              <strong>Lucas's</strong> <span>Play Ground</span>
+              <strong>Bao Ton's</strong> <span>Website</span>
             </h1>
           </Link>
         </div>
 
         <div className="col-3 mt-1 loginlink">
-          {user ? (
-            <button className="dashboard__btn" onClick={logout}>
-              {" "}
-              Logout
-            </button>
-          ) : (
-            ""
-          )}
-
-          <Link to={!user ? "/login" : ""}> {!user ? "Login /" : ""}</Link>
-          <Link to={!user ? "/register-user" : ""}>
-            {" "}
-            {!user ? " Register" : ""}
-          </Link>
+          <Link to={"/"}> {"Homepage"}</Link>
+          <Link to={"/my-resume"}> {"My Resume"}</Link>
+          <Link to={"/courses"}> {"Coursework"}</Link>
+          <Link to={"/projects"}> {"Projects"}</Link>
+          <Link to={"/blog"}> {"Blog"}</Link>
         </div>
       </div>
     </div>

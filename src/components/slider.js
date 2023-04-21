@@ -7,22 +7,15 @@ function Slider() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://www.miracle-recreation.com/content/uploads/2018/11/Image-Header_Park.jpg.webp"
+            src="https://bao-ton.s3.amazonaws.com/nixsw1vpke8ueqo794ho.webp"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://static8.depositphotos.com/1471604/1008/i/600/depositphotos_10085666-stock-photo-playground.jpg"
+            src="https://bao-ton.s3.amazonaws.com/309108269_570685008182741_8085379527507264953_n.png"
             alt="Second slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://kraken39s.com/wp-content/uploads/2018/10/IMG_3876_1.jpg"
-            alt="Third slide"
           />
         </Carousel.Item>
       </Carousel>

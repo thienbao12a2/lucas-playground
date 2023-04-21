@@ -1,0 +1,35 @@
+/* Courses.css */
+.courses {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.courses h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.courses ul {
+  list-style-type: square;
+  margin: 0.5rem 0;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courses ul li {
+  margin-bottom: 0.5rem;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.courses ul li:nth-child(odd) {
+  padding-right: 10px;
+}
+
+.courses ul li:nth-child(even) {
+  padding-left: 10px;
+}
