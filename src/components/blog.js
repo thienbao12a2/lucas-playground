@@ -38,6 +38,9 @@ const Blog = () => {
           </div>
         ))}
       </div>
+      <div className="foot container-fluid footer">
+        2022 copyright &copy; All Rights Reserved
+      </div>
     </div>
   );
 };
